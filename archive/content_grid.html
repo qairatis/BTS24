@@ -169,7 +169,7 @@
 					<div class="popup-header">
 						<a href="#" class="pull-left"><i class="icon-spinner7"></i></a>
 						<span>Tasks list</span>
-						<a href="#" class="pull-right"><i class="icon-new-tab"></i></a>
+						<a href="task_list.html" class="pull-right"><i class="icon-new-tab"></i></a>
 					</div>
 					<table class="table table-hover">
 						<thead>
@@ -280,7 +280,7 @@
 						<ul>
 							<li><a href="form_components.html">Form components</a></li>
 							<li><a href="form_layouts.html">Form layouts</a></li>
-							<li><a href="form_grid.html">Inputs grid</a></li>
+							<!--<li><a href="form_grid.html">Inputs grid</a></li>-->
 							<li><a href="wysiwyg.html">WYSIWYG editor</a></li>
 							<li><a href="validation.html">Validation</a></li>
 							<li><a href="file_uploader.html">Multiple file uploader</a></li>
@@ -291,17 +291,17 @@
 						<a href="#"><span>Interface components</span> <i class="icon-grid"></i></a>
 						<ul>
 							<li><a href="visuals.html">Visuals &amp; notifications</a></li>
-							<li><a href="navs.html">Navs</a></li>
-							<li class="active"><a href="panel_options.html">Panel options</a></li>
-							<li><a href="navbars.html">Navbars</a></li>
+							<!--<li><a href="navs.html">Navs</a></li>-->
+							<!--<li><a href="panel_options.html">Panel options</a></li>-->
+							<!--<li><a href="navbars.html">Navbars</a></li>-->
 							<li><a href="info_blocks.html">Info blocks</a></li>
-							<li><a href="icons.html">Icons <span class="label label-danger">850+</span></a></li>
-							<li><a href="buttons.html">Buttons</a></li>
+							<!--<li><a href="icons.html">Icons <span class="label label-danger">850+</span></a></li>-->
+							<!--<li><a href="buttons.html">Buttons</a></li>-->
 							<li><a href="calendar.html">Calendar</a></li>
-							<li><a href="typography.html">Typography</a></li>
+							<!--<li><a href="typography.html">Typography</a></li>-->
 							<li><a href="gallery.html">Media gallery</a></li>
-							<li><a href="header_elements.html">Page header elements</a></li>
-							<li><a href="content_grid.html">Content grid</a></li>
+							<!--<li><a href="header_elements.html">Page header elements</a></li>-->
+							<li class="active"><a href="content_grid.html">Content grid</a></li>
 						</ul>
 					</li>
 					<li>
@@ -430,8 +430,9 @@
 			<!-- Page header -->
 			<div class="page-header">
 				<div class="page-title">
-					<h3>Panel options <small>Possible panel heading optional elements</small></h3>
+					<h3>Content grid <small>Bootstrap responsive content grid</small></h3>
 				</div>
+
 				<div id="reportrange" class="range">
 					<div class="visible-xs header-element-toggle">
 						<a class="btn btn-primary btn-icon"><i class="icon-calendar"></i></a>
@@ -447,8 +448,8 @@
 			<div class="breadcrumb-line">
 				<ul class="breadcrumb">
 					<li><a href="dashboard.html">Home</a></li>
-					<li><a href="components.html">Interface Components</a></li>
-					<li class="active">Components</li>
+					<li><a href="components.html">Components</a></li>
+					<li class="active">Content grid</li>
 				</ul>
 
 				<div class="visible-xs breadcrumb-toggle">
@@ -511,519 +512,434 @@
 
 
 			<!-- Callout -->
-			<div class="callout callout-danger fade in">
+			<div class="callout callout-info fade in">
 				<button type="button" class="close" data-dismiss="alert">×</button>
-				<h5>Panel options</h5>
-				<p>Page contains examples of elements, which can be used in panel headings - labels, badges, buttons, button groups, icons, progress bars etc. Including combinations of panel and inner components.</p>
+				<h5>Bootstrap content grid</h5>
+				<p>Bootstrap mobile first 12 columns grid with examples.</p>
 			</div>
             <!-- /callout -->
 
 
-            <!-- Options modal -->
-			<div id="options-modal" class="modal fade" tabindex="-1" role="dialog">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							<h4 class="modal-title"><i class="icon-paragraph-justify2"></i> Modal with form</h4>
-						</div>
-
-						<!-- Form inside modal -->
-						<form action="#" role="form">
-
-							<div class="modal-body with-padding">
-								<span class="legend text-danger">
-									Step 1: Your shipping information
-									<small>Please enter your shipping info</small>
-								</span>
-
-	                            <div class="form-group">
-	                                <label>Country:</label>
-                                    <select data-placeholder="Choose a Country..." class="select-full" tabindex="2">
-                                        <option value=""></option> 
-                                        <option value="Cambodia">Cambodia</option> 
-                                        <option value="Cameroon">Cameroon</option> 
-                                        <option value="Canada">Canada</option> 
-                                        <option value="Cape Verde">Cape Verde</option> 
-                                    </select>
-	                            </div>
-
-								<div class="form-group">
-									<div class="row">
-									<div class="col-sm-6">
-										<label>First name</label>
-										<input type="text" placeholder="Eugene" class="form-control">
-									</div>
-
-									<div class="col-sm-6">
-										<label class="control-label">Last name</label>
-										<input type="text" placeholder="Kopyov" class="form-control">
-									</div>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div class="row">
-										<div class="col-sm-6">
-											<label>Address line 1</label>
-											<input type="text" placeholder="Ring street 12" class="form-control">
-										</div>
-
-										<div class="col-sm-6">
-											<label>Address line 2</label>
-											<input type="text" placeholder="building D, flat #67" class="form-control">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div class="row">
-										<div class="col-sm-4">
-											<label>City</label>
-											<input type="text" placeholder="Munich" class="form-control">
-										</div>
-
-										<div class="col-sm-4">
-											<label>State/Province</label>
-											<input type="text" placeholder="Bayern" class="form-control">
-										</div>
-
-										<div class="col-sm-4">
-											<label>ZIP code</label>
-											<input type="text" placeholder="1031" class="form-control">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div class="row">
-										<div class="col-sm-6">
-											<label>Email</label>
-											<input type="text" placeholder="eugene@kopyov.com" class="form-control">
-											<span class="help-block">name@domain.com</span>
-										</div>
-
-										<div class="col-sm-6">
-											<label>Phone #</label>
-											<input type="text" placeholder="+99-99-9999-9999" data-mask="+99-99-9999-9999" class="form-control">
-											<span class="help-block">+99-99-9999-9999</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="modal-footer">
-								<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-primary">Submit form</button>
-							</div>
-
-						</form>
-					</div>
-				</div>
-			</div>
-			<!-- /options modal -->
-
-
-            <!-- Panel heading options --> 
-        	<div class="row">
-        		<div class="col-md-6">
-
-            		<!-- Default panel --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading"><h6 class="panel-title">Default panel</h6></div>
-                    	<div class="panel-body"><code>div class="panel-heading"</code></div>
-                    </div>
-                    <!-- /default panel --> 
-
-
-                    <!-- Panel with left spinner --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-			                <h6 class="panel-title"><i class="icon-spinner7 spin"></i> Panel with left spinner</h6>
-		                </div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with left spinner --> 
-
-
-                    <!-- Panel with button --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel heading with button</h6>
-	                    	<a href="#" class="pull-right btn btn-xs btn-primary">Button</a>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with button --> 
-
-
-                    <!-- Panel with label --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with label</h6>
-	                    	<span class="pull-right label label-danger">Label</span>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with label --> 
-
-
-                    <!-- Panel with right icon -->
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with right icon</h6>
-	                    	<div class="pull-right">
-		                    	<a href="#" class="btn btn-link btn-icon"><i class="icon-wrench"></i></a>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with right icon -->
-
-
-                    <!-- Panel with right icon dropdown -->
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with right icon dropdown</h6>
-	                    	<div class="dropdown pull-right">
-		                    	<a href="#" class="dropdown-toggle btn btn-link btn-icon" data-toggle="dropdown">
-			                    	<i class="icon-cog3"></i> 
-			                    	<b class="caret"></b>
-		                    	</a>
-								<ul class="dropdown-menu icons-right dropdown-menu-right">
-									<li><a href="#"><i class="icon-cogs"></i> This is</a></li>
-									<li><a href="#"><i class="icon-grid3"></i> Dropdown</a></li>
-									<li><a href="#"><i class="icon-spinner7"></i> With right</a></li>
-									<li><a href="#"><i class="icon-link"></i> Aligned icons</a></li>
-								</ul>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with right icon dropdown -->
-
-        		</div>
-
-
-        		<div class="col-md-6">
-
-                    <!-- Panel with icon --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-people"></i> Panel with icon</h6>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with icon --> 
-
-
-                    <!-- Panel with right spinner --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with right spinner</h6>
-	                    	<div class="pull-right">
-		                    	<i class="icon-spinner7 spin panel-icon"></i>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with right spinner --> 
-
-
-                    <!-- Panel with button group --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with button group</h6>
-	                    	<div class="btn-group pull-right">
-	                            <button class="btn btn-sm btn-danger btn-icon"><i class="icon-accessibility"></i></button>
-	                            <button class="btn btn-sm btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret caret-split"></span></button>
-								<ul class="dropdown-menu icons-right dropdown-menu-right">
-									<li><a href="#"><i class="icon-cogs"></i> This is</a></li>
-									<li><a href="#"><i class="icon-grid3"></i> Dropdown</a></li>
-									<li><a href="#"><i class="icon-spinner7"></i> With right</a></li>
-									<li><a href="#"><i class="icon-link"></i> Aligned icons</a></li>
-								</ul>
-	                        </div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with button group --> 
-
-
-                    <!-- Panel with badge --> 
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with badge</h6>
-	                    	<span class="pull-right badge">893</span>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with badge --> 
-
-
-                    <!-- Panel with icon group -->
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with icon group</h6>
-	                    	<div class="panel-icons-group">
-		                    	<a href="#" class="btn btn-link btn-icon"><i class="icon-stats2"></i></a>
-		                    	<a href="#" class="btn btn-link btn-icon"><i class="icon-accessibility"></i></a>
-		                    	<a href="#" class="btn btn-link btn-icon"><i class="icon-cogs"></i></a>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with icon group -->
-
-
-                    <!-- Panel with icon group -->
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title">Panel with controls</h6>
-	                    	<div class="panel-icons-group">
-		                    	<a href="#" data-panel="collapse" class="btn btn-link btn-icon"><i class="icon-arrow-up9"></i></a>
-		                    	<a data-toggle="modal" role="button" href="#options-modal" class="btn btn-link btn-icon"><i class="icon-cog4"></i></a>
-		                    	<a href="#" data-panel="close" class="btn btn-link btn-icon"><i class="icon-cancel-circle"></i></a>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body"><code>div class="head"</code></div>
-                    </div>
-                    <!-- /panel with icon group -->
-
-        		</div>
-        	</div>
-        	<!-- /panel heading options --> 
-
-
-        	<!-- Panel styles --> 
-        	<div class="row">
-        		<div class="col-md-6">
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Default panel</h6>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-default"</code>
-                    	</div>
-                	</div>
-
-		            <div class="panel panel-danger">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Danger panel</h6>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-danger"</code>
-                    	</div>
-                	</div>
-
-		            <div class="panel panel-info">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Info panel</h6>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-info"</code>
-                    	</div>
-                	</div>
-        		</div>
-
-        		<div class="col-md-6">
-		            <div class="panel panel-primary">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Primary panel</h6>
-	                    	<div class="dropdown pull-right">
-		                    	<a href="#" class="dropdown-toggle btn btn-link btn-icon" data-toggle="dropdown">
-			                    	<i class="icon-cog3"></i> 
-			                    	<b class="caret"></b>
-		                    	</a>
-								<ul class="dropdown-menu icons-right dropdown-menu-right">
-									<li><a href="#"><i class="icon-cogs"></i> This is</a></li>
-									<li><a href="#"><i class="icon-grid3"></i> Dropdown</a></li>
-									<li><a href="#"><i class="icon-spinner7"></i> With right</a></li>
-									<li><a href="#"><i class="icon-link"></i> Aligned icons</a></li>
-								</ul>
-	                    	</div>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-primary"</code>
-                    	</div>
-                	</div>
-
-		            <div class="panel panel-success">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Success panel</h6>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-success"</code>
-                    	</div>
-                	</div>
-
-		            <div class="panel panel-warning">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Warning panel</h6>
-                    	</div>
-                    	<div class="panel-body">
-	                    	<code>div class="panel panel-warning"</code>
-                    	</div>
-                	</div>
-        		</div>
-        	</div>
-        	<!-- /panel styles --> 
-
-
-        	<!-- Nested panels --> 
-        	<div class="row">
-        		<div class="col-md-6">
-		            <div class="panel panel-default">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Nesting panels</h6>
-                    	</div>
-                    	<div class="panel-body">
-				            <div class="panel panel-default">
-				                <div class="panel-heading">
-			                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Default panel</h6>
-		                    	</div>
-		                    	<div class="panel-body">
-			                    	<code>div class="panel panel-default"</code>
-		                    	</div>
-		                	</div>
-                    	</div>
-                	</div>
-        		</div>
-
-        		<div class="col-md-6">
-		            <div class="panel panel-primary">
-		                <div class="panel-heading">
-	                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Nesting panels</h6>
-                    	</div>
-                    	<div class="panel-body">
-				            <div class="panel panel-success">
-				                <div class="panel-heading">
-			                    	<h6 class="panel-title"><i class="icon-accessibility"></i> Success panel</h6>
-		                    	</div>
-		                    	<div class="panel-body">
-			                    	<code>div class="panel panel-success"</code>
-		                    	</div>
-		                	</div>
-                    	</div>
-                	</div>
-        		</div>
-        	</div>
-        	<!-- /nested panels --> 
-
-
-			<!-- Panel with table -->
-			<div class="panel panel-default">
-				<div class="panel-heading"><h6 class="panel-title">With table</h6></div>
+        	<!-- Content grid -->
+            <div class="block">
+            	<h5><i class="icon-grid"></i> Bootstrap content grid</h5>
 				<div class="table-responsive">
-					<table class="table">
+					<table class="table table-bordered table-striped">
 						<thead>
 							<tr>
-							<th>#</th>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Username</th>
+								<th></th>
+								<th>
+									Extra small devices
+									<small>Phones (&lt;768px)</small>
+								</th>
+								<th>
+									Small devices
+									<small>Tablets (≥768px)</small>
+								</th>
+								<th>
+									Medium devices
+									<small>Desktops (≥992px)</small>
+								</th>
+								<th>
+									Large devices
+									<small>Desktops (≥1200px)</small>
+								</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>1</td>
-								<td>Mark</td>
-								<td>Otto</td>
-								<td>@mdo</td>
+								<th>Grid behavior</th>
+								<td>Horizontal at all times</td>
+								<td colspan="3">Collapsed to start, horizontal above breakpoints</td>
 							</tr>
 							<tr>
-								<td>2</td>
-								<td>Jacob</td>
-								<td>Thornton</td>
-								<td>@fat</td>
+								<th>Max container width</th>
+								<td>None (auto)</td>
+								<td>750px</td>
+								<td>970px</td>
+								<td>1170px</td>
 							</tr>
 							<tr>
-								<td>3</td>
-								<td>Larry</td>
-								<td>the Bird</td>
-								<td>@twitter</td>
+								<th>Class prefix</th>
+								<td><code>.col-xs-</code></td>
+								<td><code>.col-sm-</code></td>
+								<td><code>.col-md-</code></td>
+								<td><code>.col-lg-</code></td>
+							</tr>
+							<tr>
+								<th># of columns</th>
+								<td colspan="4">12</td>
+							</tr>
+							<tr>
+								<th>Max column width</th>
+								<td class="text-muted">Auto</td>
+								<td>60px</td>
+								<td>78px</td>
+								<td>95px</td>
+							</tr>
+							<tr>
+								<th>Gutter width</th>
+								<td colspan="4">30px (15px on each side of a column)</td>
+							</tr>
+							<tr>
+								<th>Nestable</th>
+								<td colspan="4">Yes</td>
+							</tr>
+							<tr>
+								<th>Offsets</th>
+								<td colspan="1" class="text-muted">N/A</td>
+								<td colspan="3">Yes</td>
+							</tr>
+							<tr>
+								<th>Column ordering</th>
+								<td class="text-muted">N/A</td>
+								<td colspan="3">Yes</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
-			<!-- /panel with table -->
 
+			<hr>
 
-        	<!-- Panel with table and panel body -->
-			<div class="panel panel-default">
-				<div class="panel-heading"><h6 class="panel-title">With table &amp; panel body</h6></div>
-				<div class="panel-body">
-					Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
-				</div>
-				<table class="table">
-					<thead>
-						<tr>
-						<th>#</th>
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>Username</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>Mark</td>
-							<td>Otto</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td>Jacob</td>
-							<td>Thornton</td>
-							<td>@fat</td>
-						</tr>
-						<tr>
-							<td>3</td>
-							<td>Larry</td>
-							<td>the Bird</td>
-							<td>@twitter</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<!-- /panel with table and panel body -->
-
-
-			<!-- Panel with list group -->
-			<div class="panel panel-default">
-				<div class="panel-heading"><h6 class="panel-title">With list group</h6></div>
-				<div class="panel-body">
-					Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
-				</div>
-
-				<ul class="list-group">
-					<li class="list-group-item">Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
-					<li class="list-group-item">Morbi leo risus</li>
-					<li class="list-group-item">Porta ac consectetur ac</li>
-					<li class="list-group-item">Vestibulum at eros</li>
+            <div class="block">
+                <h6>Introduction</h6>
+                <p>Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:</p>
+				<ul>
+					<li>Rows must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding</li>
+					<li>Use rows to create horizontal groups of columns.</li>
+					<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+					<li>Predefined grid classes like <code>.row</code> and <code>.col-xs-4</code> are available for quickly making grid layouts. LESS mixins can also be used for more semantic layouts.</li>
+					<li>Columns create gutters (gaps between column content) via <code>padding</code>. That padding is offset in rows for the first and last column via negative margin on <code>.row</code>s.</li>
+					<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three <code>.col-xs-4</code>.</li>
 				</ul>
+
+				<div class="container-fluid">
+					<div class="row demo-grid block-inner">
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-11">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-2">.col-md-1</div>
+						<div class="col-md-10">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-3">.col-md-1</div>
+						<div class="col-md-9">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-4">.col-md-1</div>
+						<div class="col-md-8">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-5">.col-md-1</div>
+						<div class="col-md-7">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-6">.col-md-1</div>
+						<div class="col-md-6">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-7">.col-md-1</div>
+						<div class="col-md-5">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-8">.col-md-1</div>
+						<div class="col-md-4">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-9">.col-md-1</div>
+						<div class="col-md-3">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid block-inner">
+						<div class="col-md-10">.col-md-1</div>
+						<div class="col-md-2">.col-md-11</div>
+					</div>
+
+					<div class="row demo-grid">
+						<div class="col-md-11">.col-md-1</div>
+						<div class="col-md-1">.col-md-11</div>
+					</div>
+				</div>
 			</div>
-			<!-- /panel with list group -->
 
+			<hr>
 
-			<!-- Panel with linked items -->
-			<div class="panel panel-default">
-				<div class="panel-heading"><h6 class="panel-title">With linked items</h6></div>
-				<div class="panel-body">
-					Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+			<div class="block">
+				<h6>Stacked-to-horizontal</h6>
+				<p>Using a single set of <code>.col-md-*</code> grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any <code>.row</code>.</p>
+
+				<div class="container-fluid block">
+					<div class="row demo-grid block-inner">
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+						<div class="col-md-1">.col-md-1</div>
+					</div>
+					<div class="row demo-grid block-inner">
+						<div class="col-md-8">.col-md-8</div>
+						<div class="col-md-4">.col-md-4</div>
+					</div>
+					<div class="row demo-grid block-inner">
+						<div class="col-md-4">.col-md-4</div>
+						<div class="col-md-4">.col-md-4</div>
+						<div class="col-md-4">.col-md-4</div>
+					</div>
+					<div class="row demo-grid">
+						<div class="col-md-6">.col-md-6</div>
+						<div class="col-md-6">.col-md-6</div>
+					</div>
 				</div>
 
-				<div class="list-group">
-					<a href="#" class="list-group-item active">Cras justo odio</a>
-					<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-					<a href="#" class="list-group-item">Morbi leo risus</a>
-					<a href="#" class="list-group-item">Porta ac consectetur ac</a>
-					<a href="#" class="list-group-item">Vestibulum at eros</a>
-				</div>
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;div class="row">
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;div class="col-md-1">.col-md-1&lt;/div>
+&lt;/div>
+
+&lt;div class="row">
+  &lt;div class="col-md-8">.col-md-8&lt;/div>
+  &lt;div class="col-md-4">.col-md-4&lt;/div>
+&lt;/div>
+
+&lt;div class="row">
+  &lt;div class="col-md-4">.col-md-4&lt;/div>
+  &lt;div class="col-md-4">.col-md-4&lt;/div>
+  &lt;div class="col-md-4">.col-md-4&lt;/div>
+&lt;/div>
+
+&lt;div class="row">
+  &lt;div class="col-md-6">.col-md-6&lt;/div>
+  &lt;div class="col-md-6">.col-md-6&lt;/div>
+&lt;/div></pre>
 			</div>
-			<!-- /panel with linked items -->
+
+			<hr>
+
+			<div class="block">
+				<h6>Mobile and desktop</h6>
+				<p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding <code>.col-xs-*</code> <code>.col-md-*</code> to your columns. See the example below for a better idea of how it all works.</p>
+
+				<div class="container-fluid block">
+					<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+					<div class="row demo-grid block-inner">
+						<div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+						<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+					</div>
+
+					<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+					<div class="row demo-grid block-inner">
+						<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+						<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+						<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+					</div>
+
+					<!-- Columns are always 50% wide, on mobile and desktop -->
+					<div class="row demo-grid">
+						<div class="col-xs-6">.col-xs-6</div>
+						<div class="col-xs-6">.col-xs-6</div>
+					</div>
+				</div>
+
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;!-- Stack the columns on mobile by making one full-width and the other half-width -->
+&lt;div class="row">
+  &lt;div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8&lt;/div>
+  &lt;div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4&lt;/div>
+&lt;/div>
+
+&lt;!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+&lt;div class="row">
+  &lt;div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4&lt;/div>
+  &lt;div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4&lt;/div>
+  &lt;div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4&lt;/div>
+&lt;/div>
+
+&lt;!-- Columns are always 50% wide, on mobile and desktop -->
+&lt;div class="row">
+  &lt;div class="col-xs-6">.col-xs-6&lt;/div>
+  &lt;div class="col-xs-6">.col-xs-6&lt;/div>
+&lt;/div></pre>
+			</div>
+
+			<hr>
+
+			<div class="block">
+				<h6>Mobile, tablet, desktops</h6>
+				<p>Build on the previous example by creating even more dynamic and powerful layouts with tablet <code>.col-sm-*</code> classes.</p>
+
+				<div class="container-fluid block">
+					<div class="row demo-grid block-inner">
+						<div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+						<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+					</div>
+
+					<div class="row demo-grid">
+						<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+						<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+
+						<div class="clearfix visible-xs"></div>
+						<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+					</div>
+				</div>
+
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;div class="row">
+  &lt;div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8&lt;/div>
+  &lt;div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4&lt;/div>
+&lt;/div>
+&lt;div class="row">
+  &lt;div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4&lt;/div>
+  &lt;div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4&lt;/div>
+  &lt;!-- Optional: clear the XS cols if their content doesn't match in height -->
+  &lt;div class="clearfix visible-xs">&lt;/div>
+  &lt;div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4&lt;/div>
+&lt;/div></pre>
+			</div>
+
+			<hr>
+
+			<div class="block">
+				<h6>Offseting columns</h6>
+				<p>Move columns to the right using <code>.col-md-offset-*</code> classes. These classes increase the left margin of a column by <code>*</code> columns. For example, <code>.col-md-offset-4</code> moves <code>.col-md-4</code> over four columns.</p>
+
+				<div class="container-fluid block">
+					<div class="row demo-grid block-inner">
+						<div class="col-md-4">.col-md-4</div>
+						<div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+					</div>
+					<div class="row demo-grid block-inner">
+						<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+						<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+					</div>
+					<div class="row demo-grid">
+						<div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+					</div>
+				</div>
+
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;div class="row">
+  &lt;div class="col-md-4">.col-md-4&lt;/div>
+  &lt;div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4&lt;/div>
+&lt;/div>
+&lt;div class="row">
+  &lt;div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3&lt;/div>
+  &lt;div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3&lt;/div>
+&lt;/div>
+&lt;div class="row">
+  &lt;div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3&lt;/div>
+&lt;/div></pre>
+			</div>
+
+			<hr>
+
+			<div class="block">
+				<h6>Nesting columns</h6>
+				<p>To nest your content with the default grid, add a new <code>.row</code> and set of <code>.col-md-*</code> columns within an existing <code>.col-md-*</code> column. Nested rows should include a set of columns that add up to 12.</p>
+
+				<div class="container-fluid block">
+					<div class="row demo-grid">
+						<div class="col-md-8">
+							Level 1: .col-md-8
+							<div class="row demo-grid container-fluid">
+								<div class="col-md-6">
+									Level 2: .col-md-6
+								</div>
+
+								<div class="col-md-6">
+									Level 2: .col-md-6
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							Level 1: .col-md-4
+							<div class="row demo-grid container-fluid">
+								<div class="col-md-4">
+									Level 2: .col-md-4
+								</div>
+
+								<div class="col-md-4">
+									Level 2: .col-md-4
+								</div>
+
+								<div class="col-md-4">
+									Level 2: .col-md-4
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;div class="row">
+  &lt;div class="col-md-9">
+    Level 1: .col-md-9
+    &lt;div class="row">
+      &lt;div class="col-md-6">
+        Level 2: .col-md-6
+      &lt;/div>
+      &lt;div class="col-md-6">
+        Level 2: .col-md-6
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div></pre>
+			</div>
+
+			<hr>
+
+			<div class="block">
+				<h6>Column ordering</h6>
+				<p>Easily change the order of our built-in grid columns with <code>.col-md-push-*</code> and <code>.col-md-pull-*</code> modifier classes.</p>
+
+				<div class="container-fluid block">
+					<div class="row demo-grid">
+						<div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+						<div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+					</div>
+				</div>
+
+				<span class="subtitle">Example code:</span>
+				<pre class="prettyprint linenums">
+&lt;div class="row demo-grid">
+  &lt;div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3&lt;/div>
+  &lt;div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9&lt;/div>
+&lt;/div></pre>
+			</div>
+			<!-- /content grid -->
 
 
 	        <!-- Footer -->
